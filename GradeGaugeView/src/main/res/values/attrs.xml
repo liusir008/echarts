@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradeGaugeView">
+        <attr name="min" format="float" />
+        <attr name="max" format="float" />
+        <attr name="axisLineWidth" format="dimension|float|reference" />
+        <attr name="title" format="string|reference" />
+        <attr name="titleSize" format="dimension|float|reference" />
+        <attr name="titleColor" format="color|reference" />
+        <attr name="titleOffset" format="dimension|float|reference" />
+        <attr name="detailSize" format="dimension|float|reference" />
+        <attr name="detailColor" format="color|reference" />
+        <attr name="dataValue" format="float"/>
+        <attr name="dataUnit" format="string|reference" />
+        <attr name="dataUnitSize" format="dimension|float|reference" />
+        <attr name="dataUnitColor" format="color|reference" />
+        <attr name="pointerLength" format="dimension|float|reference" />
+        <attr name="pointerWidth" format="dimension|float|reference" />
+        <attr name="pointerOffset" format="dimension|float|reference"/>
+        <attr name="pointerColor" format="color|reference" />
+        <attr name="tickOffset" format="dimension|float|reference" />
+        <attr name="axisTickLength" format="dimension|float|reference" />
+        <attr name="axisTickWidth" format="dimension|float|reference" />
+        <attr name="splitLineLength" format="dimension|float|reference" />
+        <attr name="splitLineWidth" format="dimension|float|reference" />
+        <attr name="extBtnOffset" format="dimension|float|reference" />
+        <attr name="extBtnRound" format="boolean|reference" />
+        <attr name="extBtnRoundRadius" format="dimension|float|reference" />
+        <attr name="extBtnHeight" format="dimension|float|reference" />
+        <attr name="extBtnWidth" format="dimension|float|reference" />
+        <attr name="extBtnBackground" format="color|reference" />
+        <attr name="extBtnText" format="string|reference" />
+        <attr name="extBtnTextSize" format="dimension|float|reference" />
+        <attr name="extBtnTextColor" format="color|reference" />
+        <attr name="enableAutoColor" format="boolean|reference" />
+        <attr name="enableAnimator" format="boolean|reference" />
+    </declare-styleable>
+</resources>
